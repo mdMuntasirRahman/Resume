@@ -1,0 +1,282 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muntasir Rahman | Skills</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Cursor Effect -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-brand">
+        <a href="index.html" class="logo">MR<span class="dot">.</span></a>
+      </div>
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="experience.html" class="nav-link">Experience</a></li>
+        <li><a href="education.html" class="nav-link">Education</a></li>
+        <li><a href="skills.html" class="nav-link active">Skills</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+      </button>
+    </nav>
+
+    <!-- Skills Section -->
+    <main class="page-container">
+      <header class="page-header">
+        <h1 class="page-title animate-slide-up delay-1">Skills</h1>
+        <div class="title-decoration animate-slide-up delay-2"></div>
+      </header>
+
+      <section class="skills-content">
+        <!-- Professional Skills -->
+        <div class="skills-category animate-slide-up delay-1">
+          <h2 class="category-title">
+            <span class="title-icon"><i class="fas fa-briefcase"></i></span>
+            Professional Skills
+          </h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-headset"></i>
+              </div>
+              <h3 class="skill-name">Customer Service & Client Support</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="95"></div>
+              </div>
+              <span class="skill-percentage">95%</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h3 class="skill-name">Problem Solving</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90"></div>
+              </div>
+              <span class="skill-percentage">90%</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <h3 class="skill-name">Time Management</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85"></div>
+              </div>
+              <span class="skill-percentage">85%</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-comments"></i>
+              </div>
+              <h3 class="skill-name">Communication Skills</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="92"></div>
+              </div>
+              <span class="skill-percentage">92%</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+              <h3 class="skill-name">Sales Associate</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="88"></div>
+              </div>
+              <span class="skill-percentage">88%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="skills-category animate-slide-up delay-2">
+          <h2 class="category-title">
+            <span class="title-icon"><i class="fas fa-laptop-code"></i></span>
+            Technical Skills
+          </h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fab fa-microsoft"></i>
+              </div>
+              <h3 class="skill-name">Microsoft Office Suite</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90"></div>
+              </div>
+              <span class="skill-percentage">90%</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <h3 class="skill-name">Computer Proficiency</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85"></div>
+              </div>
+              <span class="skill-percentage">85%</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <h3 class="skill-name">Data Entry & Documentation</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="88"></div>
+              </div>
+              <span class="skill-percentage">88%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Highlights -->
+        <div class="skill-highlights animate-slide-up delay-3">
+          <div class="highlight-card">
+            <div class="highlight-number" data-target="10000">0</div>
+            <div class="highlight-label">Customers Served</div>
+            <div class="highlight-icon"><i class="fas fa-users"></i></div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-number" data-target="8">0</div>
+            <div class="highlight-label">Core Skills</div>
+            <div class="highlight-icon"><i class="fas fa-cogs"></i></div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-number" data-target="2">0</div>
+            <div class="highlight-label">Years Experience</div>
+            <div class="highlight-icon"><i class="fas fa-award"></i></div>
+          </div>
+        </div>
+
+        <!-- Soft Skills Radar -->
+        <div class="soft-skills-section animate-slide-up delay-4">
+          <h2 class="category-title">
+            <span class="title-icon"><i class="fas fa-user-check"></i></span>
+            Core Competencies
+          </h2>
+          <div class="competencies-grid">
+            <div class="competency-item">
+              <div class="competency-ring">
+                <svg viewBox="0 0 100 100">
+                  <circle class="ring-bg" cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="ring-progress"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    data-progress="95"
+                  ></circle>
+                </svg>
+                <span class="competency-value">95%</span>
+              </div>
+              <span class="competency-name">Adaptability</span>
+            </div>
+            <div class="competency-item">
+              <div class="competency-ring">
+                <svg viewBox="0 0 100 100">
+                  <circle class="ring-bg" cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="ring-progress"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    data-progress="92"
+                  ></circle>
+                </svg>
+                <span class="competency-value">92%</span>
+              </div>
+              <span class="competency-name">Teamwork</span>
+            </div>
+            <div class="competency-item">
+              <div class="competency-ring">
+                <svg viewBox="0 0 100 100">
+                  <circle class="ring-bg" cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="ring-progress"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    data-progress="90"
+                  ></circle>
+                </svg>
+                <span class="competency-value">90%</span>
+              </div>
+              <span class="competency-name">Leadership</span>
+            </div>
+            <div class="competency-item">
+              <div class="competency-ring">
+                <svg viewBox="0 0 100 100">
+                  <circle class="ring-bg" cx="50" cy="50" r="45"></circle>
+                  <circle
+                    class="ring-progress"
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    data-progress="88"
+                  ></circle>
+                </svg>
+                <span class="competency-value">88%</span>
+              </div>
+              <span class="competency-name">Attention to Detail</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-section animate-slide-up delay-5">
+          <a href="contact.html" class="btn btn-primary">
+            <span>Get In Touch</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Social Links -->
+    <div class="social-sidebar">
+      <a
+        href="mailto:muntasir2999@gmail.com"
+        class="social-link"
+        aria-label="Email"
+      >
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="tel:+8801635305070" class="social-link" aria-label="Phone">
+        <i class="fas fa-phone"></i>
+      </a>
+      <div class="social-line"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
